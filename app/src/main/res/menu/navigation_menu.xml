@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_fragment"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_pantry_fragment"
+            android:title="Pantry" />
+        <item
+            android:id="@+id/nav_shopping_list_fragment"
+            android:title="Shopping List" />
+        <item
+            android:id="@+id/nav_recipe_book_fragment"
+            android:title="Recipe Book" />
+    </group>
+</menu>

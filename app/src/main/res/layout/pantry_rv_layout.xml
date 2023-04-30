@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:focusable="auto"
+    android:foreground="?selectableItemBackground"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="4dp">
+
+    <LinearLayout
+        android:layout_width="287dp"
+        android:layout_height="56dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="287dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/pantryItemNameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Name" />
+
+            <TextView
+                android:id="@+id/pantryItemCategoryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Category" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/measurementTypeGet"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Measurement Type" />
+
+            <TextView
+                android:id="@+id/measurementAmountGet"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Amount" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/iv_item_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

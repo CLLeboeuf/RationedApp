@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "199648040754",
+    "project_id": "fir-android-4bd29",
+    "storage_bucket": "fir-android-4bd29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199648040754:android:a563c5dc9d896109a7292b",
+        "android_client_info": {
+          "package_name": "com.example.rationedapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199648040754-s9dkq70i170vt31oc3n2fe1kp08lfm34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYlyOLCmGEDT_eabbdpgxsRON8f4d6TSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199648040754-s9dkq70i170vt31oc3n2fe1kp08lfm34.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

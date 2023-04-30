@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home_fragment">
+
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.example.rationedapp.fragment.HomeFragment"
+        android:label="Home" />
+    <fragment
+        android:id="@+id/nav_recipe_book_fragment"
+        android:name="com.example.rationedapp.fragment.RecipeBookFragment"
+        android:label="Recipe Book" />
+    <fragment
+        android:id="@+id/nav_pantry_fragment"
+        android:name="com.example.rationedapp.fragment.PantryFragment"
+        android:label="Pantry" />
+    <fragment
+        android:id="@+id/nav_shopping_list_fragment"
+        android:name="com.example.rationedapp.fragment.ShoppingListFragment"
+        android:label="Shopping List" />
+</navigation>
